@@ -3,7 +3,7 @@ cask "eol-date" do
   name "eol-date"
   desc "CLI tool to check end-of-life dates for software products using the endoflife.date API."
   homepage "https://github.com/oliverandrich/eol-date"
-  version "0.3.0"
+  version "0.3.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "eol-date" do
   on_macos do
     on_intel do
       url "https://github.com/oliverandrich/eol-date/releases/download/v#{version}/eol-date-#{version}-darwin-amd64.zip"
-      sha256 "9396fe3661065622d8a0340a60df4d434370c684329fe6820d78356fe54390e1"
+      sha256 "2548f058c6913c3005eceab2a2332c62f7fb6a178731aed2da3c174532086a2b"
     end
     on_arm do
       url "https://github.com/oliverandrich/eol-date/releases/download/v#{version}/eol-date-#{version}-darwin-arm64.zip"
-      sha256 "b6eac1622314f7f3c4a0b9c8f803df099fbf14866817abd681f8b418bf543617"
+      sha256 "2a2c9ca467db5a962514206639bc3d17fd65a54793c8c2e7f89d5f2635a9581d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/oliverandrich/eol-date/releases/download/v#{version}/eol-date-#{version}-linux-amd64.tar.gz"
-      sha256 "db19fd61d81d908b9cf59a3108c59d52d0ff9b7e1d0c2613e2c54bef0b05a462"
+      sha256 "3f1c448c67bc5081cdaa4278cb7b2869046544763119051a752ba3bad32b9d04"
     end
     on_arm do
       url "https://github.com/oliverandrich/eol-date/releases/download/v#{version}/eol-date-#{version}-linux-arm64.tar.gz"
-      sha256 "973ea9c5026d381e19c14f26bb9bf27e2811b1a4fc35f1da7559e6398988210e"
+      sha256 "0f3cc527bda2583320e6cbc95ad0837b30503bc7da4d64abb68a1c323dd0768c"
     end
   end
 
