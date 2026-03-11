@@ -3,7 +3,7 @@ cask "gohatch" do
   name "gohatch"
   desc "A project scaffolding tool for Go"
   homepage "https://github.com/oliverandrich/gohatch"
-  version "0.7.0"
+  version "0.7.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gohatch" do
   on_macos do
     on_intel do
       url "https://github.com/oliverandrich/gohatch/releases/download/v#{version}/gohatch-#{version}-darwin-amd64.zip"
-      sha256 "8aeb6a1f8c4e67adefb0891382996e665c04e0f571bec842b26a2a8e5cc78916"
+      sha256 "6cae704ace9385862becdffe54f10f13873a526bd3d6b0b16da1dd3409dffe5f"
     end
     on_arm do
       url "https://github.com/oliverandrich/gohatch/releases/download/v#{version}/gohatch-#{version}-darwin-arm64.zip"
-      sha256 "7bef4abfdda88dea4c7733355ee991d77e25c7e8f2e2e2890fb6c363a7f9370e"
+      sha256 "9618c070974f01a87b56bca3131254fd80416475ca58f9786561ef8ce5cc2a95"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/oliverandrich/gohatch/releases/download/v#{version}/gohatch-#{version}-linux-amd64.tar.gz"
-      sha256 "08a9c44d1b9869fcf913b02c0c3c9b137627b643014016a4b1a770e24f2f6e4e"
+      sha256 "6e0f9d3a69b5740ac7f3ab1573805f079c22d28cd44afce09bb0498e672a9e42"
     end
     on_arm do
       url "https://github.com/oliverandrich/gohatch/releases/download/v#{version}/gohatch-#{version}-linux-arm64.tar.gz"
-      sha256 "3b65bf12ffb5c9b09dd80b061ad8cb5f8e93eecfa0ee23e328e604370697d5fe"
+      sha256 "9c95ae4278d61bacd112be95cba39d7c26af5640d6d7aecde908fc6f593d8509"
     end
   end
 
